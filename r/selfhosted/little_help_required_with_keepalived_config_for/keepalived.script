@@ -1,0 +1,3 @@
+#!/bin/ash
+  #To check if DNS server is reachable
+  dig . NS @localhost || exit 1
